@@ -1,0 +1,19 @@
+<!--pages/personal/personal.wxml-->
+<view class='self'>
+ <view class='self_head'>
+ <view class='head_icon'></view>
+ <view class='user_name'></view>
+ </view>
+ <view class='self_mygame'>
+ <view class='magame_icon'></view>我的比赛
+ </view>
+ <view class='self_group'>
+ <view class='group_icon'></view>组团信息
+ </view>
+ <view class='self_share'>
+ <view class='share_icon'></view>分享
+ </view>
+ <view class='self_feedback'>
+ <view class='feedback_icon'></view>反馈
+ </view>
+</view>

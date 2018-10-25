@@ -1,0 +1,185 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rox;
+  align-items: center;
+}
+
+.userinfo-avatar {
+   width: 200rpx;
+  height: 200rpx;
+  margin: 10rpx; 
+  border-radius: 50%;
+}
+ 
+.userinfo-nickname {
+  color: lawngreen;  /**名字的颜色*/
+   margin-top: 10rpx;
+  padding-left: 35%;
+} 
+
+.usermotto {
+  margin-top: 10rpx;
+  padding-left: 35%;
+}  
+
+.wxx{
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: transparent;
+  /* text-align: center; */
+  color: white;
+  margin-left: 30rpx;
+ width: 90%;
+ margin-top: 10rpx;
+
+}
+.wx{
+   color: white;
+  font-weight: normal ;
+}
+
+.banji{
+   display: flex; 
+  font-style: normal;
+  font-weight:bold;       /**是否粗体*/
+  background-color: transparent;
+  color: white;
+  margin-left: 30rpx;
+  width: 90%;
+ margin-top: 10rpx;
+}
+.ban{
+  color:white;
+  font-weight: normal;
+}
+
+.name{
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: transparent;
+ 
+  color: white;
+  margin-left: 30rpx;
+   width: 90%;
+ margin-top: 10rpx
+}
+.nam{
+   color: white;
+   font-weight: normal ;
+}
+.phone{
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: transparent;
+  /* text-align: center; */
+  color: white;
+   width: 90%;
+   margin-left: 30rpx;
+ margin-top: 10rpx
+}
+.pho{
+   color: white;
+   font-weight: normal ;
+}
+.QQ{
+  
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: transparent;/*设置为透明*/
+  /* text-align: center; */
+  color: whitesmoke;
+    width: 90%;
+    margin-left: 30rpx;
+ margin-top: 10rpx
+}
+
+.Q{
+   color: white;
+   font-weight: normal ;
+}
+
+.introduce{
+   color: black;
+   font-weight: normal ;
+}
+.introduction{
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: white;
+  /* text-align: center; */
+  color: black;
+    width: 90%;
+    margin-left: 30rpx;
+ margin-top: 10rpx
+ 
+}
+
+.radiu1{
+  margin-left: 60rpx;
+  margin-top: 20rpx;
+  border-radius: 200rpx; 
+    padding-left: 15rpx;
+   height: 170rpx;
+  width: 150rpx; 
+  /* margin-right: 90rpx; */
+
+  background-color: pink
+}
+.radiu2{
+    margin-top: 20rpx;
+    margin-left: -7rpx;
+  border-radius: 200rpx; 
+     padding-left: 15rpx; 
+   height: 170rpx;
+  width: 150rpx; 
+  margin-right: 90rpx;
+
+  background-color: pink
+}
+.triangle{
+    margin-left: 60rpx;
+    width: 0;
+    height: 0;
+    margin-top: -60rpx;
+    border-left: 65px solid transparent;
+    border-right: 72px solid transparent;
+    border-top: 85px solid pink;
+}
+.main{
+  display: flex
+}
+.text{
+  color:red;
+  height: 60rpx;
+  width: 300rpx;
+  margin-top: 40rpx;
+}
+.instroduce{
+  display: flex;
+  font-style: normal;
+  font-weight:bold;
+  background-color: transparent;
+  /* text-align: center; */
+  color: white;
+    width: 90%;
+    margin-left: 30rpx;
+ margin-top: 10rpx
+}
+.input{
+   color: white;
+   margin-left: 30rpx;
+   font-weight: normal ;
+}
+.ui-card {
+        /* background: url(
+https://ghf503.oss-cn-beijing.aliyuncs.com/u%3D1643851947%2C3774691216%26fm%3D27%26gp%3D0.jpg);          */
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1536759413&di=5bf9b58a457c8d8df398bf4de59afccb&src=http://pic.58pic.com/58pic/15/78/09/76858PIC4rc_1024.jpg);   
+   width: 100%;
+   height: 1000rpx;
+}

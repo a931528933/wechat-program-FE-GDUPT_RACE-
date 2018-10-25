@@ -1,0 +1,24 @@
+/* pages/zxbs/zxbs.wxss */
+@import "/wxSearch/wxSearch.wxss";
+
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: column-reverse
+}
+
+.container-item {
+
+width: 800rpx;
+height: 100px;
+background-color: #dfdfdf;
+margin: 4px;
+
+}

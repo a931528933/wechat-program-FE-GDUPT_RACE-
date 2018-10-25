@@ -1,0 +1,62 @@
+<view class="head">
+  <view class='type_body'>
+    <text class='type_head'>全部级别</text>
+    <text class='type_content'>院级</text>
+    <text class='type_content'>校级</text>
+    <text class='type_content'>市级</text>
+    <text class='type_content'>省级</text>
+    <text class='type_content'>国家级</text>
+    <text class='type_content'>世界级</text>
+  </view>
+
+  <view class='type_body'>
+    <text class='type_head'>全部类型</text>
+    <text class='type_content'>科技</text>
+    <text class='type_content'>文体</text>
+    <text class='type_content'>...</text>
+  </view>
+
+  <view class='type_body'>
+    <text class='type_head'>全部年份</text>
+    <text class='type_content'>2018年</text>
+    <text class='type_content'>2019年</text>
+    <text class='type_content'>...</text>
+  </view> 
+</view>
+
+<view class='content'>
+  <view class='game_body'>
+    <view class='game_left'>
+      <view class='game_content left'></view>
+      <text>数学建模比赛</text>
+    </view>
+
+    <view class='game_right'>
+      <view class='game_content right'></view>
+      <text>朗诵比赛</text>
+    </view>
+
+    <view class='game_center'>
+      <view class='game_content center'></view>
+      <text>读书比赛</text>
+    </view>
+  </view>
+
+
+  <view class='game_body game_body_next'>
+    <view class='game_left left'>
+      <view class='game_content left'></view>
+      <text>数学建模比赛</text>
+    </view>
+
+    <view class='game_right'>
+      <view class='game_content right'></view>
+      <text>朗诵比赛</text>
+    </view>
+
+    <view class='game_center'>
+      <view class='game_content center'></view>
+      <text>读书比赛</text>
+    </view>
+  </view> 
+</view>

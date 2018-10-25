@@ -1,0 +1,34 @@
+<view class="ui-card">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </block>
+  </view>
+
+
+<view class='banji'> 班级：
+<input class='ban' bindinput="textarea_bindinput1"value="{{textarea_text1}}"type='number'maxlength='11'placeholder="哆啦A梦"></input>
+</view>
+
+<view class='name'> 姓名：
+<input class='nam' bindinput="textarea_bindinput2"value="{{textarea_text2}}"type='text'maxlength='15'placeholder="哆啦A梦"></input>
+</view>
+
+<view class='wxx'>微信：
+<input class='wx' bindinput="textarea_bindinput"value="{{textarea_text}}"type='text'maxlength='15'placeholder="哆啦A梦"></input>
+</view>
+<view class='phone'> 手机：
+<input class='pho' bindinput="textarea_bindinput3"value="{{textarea_text3}}"type='number'maxlength='11'placeholder="哆啦A梦"></input>
+</view>
+
+<view class='QQ'> Q Q：
+<input class='Q' bindinput="textarea_bindinput4"value="{{textarea_text4}}"type='number'maxlength='15'placeholder="哆啦A梦"></input>
+</view>
+
+<view class='instroduce'>简介:</view>  
+  <textarea maxlength="100"auto-focus="true"value="{{textarea_text5}}"auto-height="true"
+    placeholder="汝乃天骄,何不扶摇直上九万里" class="input"bindinput="textarea_bindinput5"> 
+  </textarea> 
+
+</view>

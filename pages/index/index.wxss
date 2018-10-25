@@ -1,0 +1,28 @@
+@import "/wxSearch/wxSearch.wxss";
+
+/**面板**/
+.div{
+    width:90%;
+    margin:-47rpx 40rpx;
+    padding:0rpx;
+    height:100px;
+}
+
+.before{
+    width:90%;
+    margin:-47rpx 40rpx;
+    padding:0rpx;
+    height:100px;
+}
+.can{
+    width:90%;
+    margin:-47rpx 40rpx;
+    padding:0rpx;
+    height:100px;
+}
+.match{
+    width:90%;
+    margin:-60rpx 40rpx;
+    padding:0rpx 0rpx;
+    height:100px;
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/mine/mine",
+    "pages/index/page/gxhdz",
+    "pages/index/page/wqbs",
+    "pages/index/page/kcjbs",
+    "pages/index/page/zxbs"
+        
+  ],
+    
+
+  
+  "window": {
+    "navigationBarBackgroundColor": "#fffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "竞赛拼吧",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+
+  "tabBar":{
+    "color": "#ccc",
+    "selectedColor": "black",
+     "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "消息"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "个人"
+    }
+    
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+/* pages/index/pages/gxhdz.wxss */
+.head{
+  border-bottom: 1rpx solid #ABABAB;
+  height: 210rpx;
+}
+.type_body{
+  margin-top: 20rpx;
+}
+.type_head{
+  margin-left: 20rpx;
+  background: #EAEAEA;
+  padding: 5rpx 20rpx 5rpx 20rpx;
+  border-radius: 10rpx;
+  color: #EEC900;
+  font-size: 28rpx;
+}
+.type_content{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.game_body{
+  margin-top: 30rpx;
+  margin: 30rpx 10rpx 0rpx 10rpx;
+}
+.game_body_next{
+  margin-top: 50rpx;
+}
+.game_left{
+  float: left;
+  width: 33%;
+  height: 200rpx;
+}
+.game_center{
+  margin: 0 auto;
+  width: 34%;
+  height: 200rpx;
+}
+.game_right{
+  float: right;
+  width: 33%;
+  height: 200rpx;
+}
+.game_content{
+  display: block;
+  margin: 0 auto;
+  width: 98%;
+  height: 200rpx;
+}
+.right{
+  background: #ABABAB;
+}
+.center{
+  background: #EEC900;
+}
+.left{
+  background: red;
+}
+.game_body text{
+  display: block;
+  text-align: center;
+  margin-top: 7rpx;
+  font-size: 24rpx;
+}

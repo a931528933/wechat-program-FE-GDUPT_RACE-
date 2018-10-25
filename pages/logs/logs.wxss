@@ -1,0 +1,80 @@
+.news_search{  
+  width: 100%; 
+  height: 46px;
+  background-color: #efefef;
+  display: flex;  
+  flex-direction: row  
+} 
+.search_arr { 
+  width: 80%; 
+  height: 30px;
+  border: 1px solid #d0d0d0;  
+  border-radius: 50rpx;  
+  margin-top: 7px;
+  margin-left: 10%;
+}     
+.search_cion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:90rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}
+.search_arr input{ 
+  margin-top: 5rpx; 
+  margin-left: 100rpx;  
+  height: 50rpx;  
+  border-radius: 5px;  
+} 
+.news_msg{
+  margin-top: 5rpx;
+}
+.news_msg button{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+button::after{
+border:none;
+border-radius: 0;
+}
+.news_msg image{
+  float: left;
+  margin-top: 5rpx;
+  margin-left: 10rpx;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.news_body{
+  overflow: hidden;
+  height: 54px;
+  margin-left: 120rpx;
+  border-bottom: 1px solid #d0d0d0;
+}
+.news_username{
+  text-align: left;
+  margin-top: 20rpx;
+  font-size: 34rpx;
+  line-height: 1;
+}
+.news_time{
+  float: right;
+  margin-top: -36rpx;
+  margin-right: 10rpx;
+  color: #7d7d7d;
+  font-size: 28rpx;
+}
+.news_content{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  height: 30rpx;
+  margin-top: 12rpx;
+  font-size: 28rpx;
+  color: #d0d0d0;
+  line-height: 1.2;
+}

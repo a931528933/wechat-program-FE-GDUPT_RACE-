@@ -1,0 +1,21 @@
+<view class='news'>
+
+  <view class='news_search'> 
+    <view class="search_arr">  
+      <icon class="search_cion" size='20' type='search'></icon>  
+      <input class="" placeholder="搜索联系人的群" value="{{searchValue}}" auto-focus />  
+    </view>   
+  </view>
+  
+  <view class='news_msg' wx:for="{{msgList}}">
+    <button bindtap='changeToTest'>
+    <image src='{{item.image}}'></image>
+    <view class='news_body'>
+      <view class='news_username'>{{item.username}}</view>
+      <view class='news_time'>{{item.time}}</view>
+      <text class='news_content'>{{item.content}}</text>
+    </view>
+    </button>
+  </view> 
+  
+</view>
